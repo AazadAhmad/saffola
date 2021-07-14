@@ -526,6 +526,7 @@ header .navbar-expand-md .navbar-nav .nav-link.buy-now:hover{
     height: 110px;
     position: relative;
     padding: 15px 0 0 30px;
+    background-size: contain;
 }
 
 .classic-masala .add-ons-div .add-ons-btn {
