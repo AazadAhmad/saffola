@@ -398,7 +398,7 @@ header .navbar-expand-md .navbar-nav .nav-link.buy-now:hover{
     --animate-repeat: 1
 }
 
-.animate__animated {
+.animate {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-duration: var(--animate-duration);
@@ -514,8 +514,13 @@ header .navbar-expand-md .navbar-nav .nav-link.buy-now:hover{
     width: 100%;
     padding: 0 70px 70px 70px;
 }
-
+.classic-masala .slick-current .masala-content,
 .classic-masala .add-ons-div {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+.classic-masala .slick-current .add-ons-div {
     background: url(../img/add-ons.png) no-repeat center;
     width: 100%;
     height: 110px;
