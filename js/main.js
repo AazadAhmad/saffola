@@ -136,7 +136,10 @@ $( document ).ready(function() {
     if (window.matchMedia("(max-width: 767px)").matches) {
 	   $('.recipes-slider').slick('unslick');
 	   $(".steaming .card-header .nav-tabs .nav-link").click(function() {
-	   $('.recipes-slider').slick('unslick');
+	   		$('.recipes-slider').slick('unslick'); 
+	        setTimeout(function(){
+			 $('.recipes-slider').slick('unslick'); 
+			}, 200);
 	   });
 	} 
     $('.follow-slider').slick({
