@@ -1,0 +1,2069 @@
+body,
+html {
+    height: 100%;
+    width: 100%
+}
+
+*,
+:after,
+:before,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ul li {
+    padding: 0;
+    margin: 0
+}
+
+a,
+a:focus,
+a:hover,
+button,
+input,
+select,
+textarea {
+    text-decoration: none;
+    outline: 0
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+body,
+header,
+html {
+    width: 100%
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 100%
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
+    font-weight: 500;
+    margin: 0;
+    font-size: 14px;
+    color: #202020;
+    line-height: 25px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+    -webkit-tap-highlight-color: transparent;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: normal;
+    color: #223a72;
+}
+
+a {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    word-wrap: break-word;
+    ;
+}
+
+a:hover {
+    color: #253a71;
+}
+
+p a:hover {
+    color: #253a71;
+    text-decoration: underline
+}
+
+a,
+button,
+input,
+select,
+textarea {
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+}
+
+button:focus {
+    outline: none;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #253a71
+}
+
+::selection {
+    color: #fff;
+    background: #253a71
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #707070;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle
+}
+
+picture {
+    display: block;
+}
+
+.clear:after,
+.clear:before {
+    content: "";
+    display: table
+}
+
+.clear:after {
+    clear: both
+}
+
+.hiddenDesktop {
+    display: none !important;
+}
+
+.hide {
+    display: none;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+h2.subtitle {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 54px;
+    color: #DB0812;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.opacity-4 {
+    opacity: 0.4;
+}
+
+.border-radius {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+/*header start*/
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    padding: 15px;
+}
+
+header.sticky {
+    background: rgb(219 8 17 / 90%);
+    height: 70px;
+    transition: 0.5s;
+    padding: 0 15px;
+}
+
+header.sticky .navbar-brand img {
+    padding: 10px;
+}
+
+header.sticky .navbar-expand-md .navbar-nav .nav-link {
+    color: #fdc518;
+    padding: 10px;
+}
+
+header.sticky .navbar-expand-md .navbar-nav .nav-link.buy-now {
+    padding: 10px 20px;
+    width: 125px;
+}
+
+header .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header .navbar-expand-md {
+    padding: 0
+}
+
+header .navbar-expand-md .navbar-nav .nav-link {
+    color: #fff;
+    padding: 15px 10px;
+    font-size: 16px;
+    transition: 0.5s
+}
+header .navbar-expand-md .navbar-nav .nav-link:hover{
+    color: #FCC517;
+}
+
+header .navbar-expand-md .navbar-nav .nav-link.buy-now {
+    background: #FCC517;
+    color: #DB0812;
+    padding: 15px 20px;
+    border-radius: 4px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    transition: 0.5s
+}
+header .navbar-expand-md .navbar-nav .nav-link.buy-now:hover{
+    background: #fff
+}
+/*header end*/
+
+
+
+/*home banner start*/
+.home-banner {
+    position: relative;
+}
+
+.home-banner .home-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.home-banner .home-slider picture {
+    position: relative;
+}
+
+.home-banner .home-slider picture .banner-product1,
+.home-banner .home-slider picture .banner-product2,
+.home-banner .home-slider picture .banner-product3 {
+    position: absolute;
+}
+
+.home-banner .home-slider picture .banner-product1 {
+    left: -90px;
+    top: -20;
+    width: 80%;
+}
+
+.home-banner .home-slider picture .banner-product2 {
+    left: 156px;
+    top: 194px;
+    width: 45%;
+}
+
+.home-banner .home-slider picture .banner-product3 {
+    right: 50px;
+    width: 50%;
+    top: 94px;
+}
+
+.banner-product1 img{
+    webkit-animation: left_img 5s ease-in-out 0s infinite normal none;
+    animation: left_img 5s ease-in-out 0s infinite normal none;
+    position: absolute;
+    left: 0
+}
+
+@-webkit-keyframes left_img {
+  0% {
+    left: 15px; 
+    }
+  50% {
+    left: 0; 
+    }
+  100% {
+    left: 15px; 
+    } 
+}
+.banner-product2 img{
+    webkit-animation: bottom_img 5s ease-in-out 0s infinite normal none;
+    animation: bottom_img 5s ease-in-out 0s infinite normal none;
+    position: absolute;
+    top: 0
+}
+
+@-webkit-keyframes bottom_img {
+  0% {
+    top: 15px; 
+    }
+  50% {
+    top: 0; 
+    }
+  100% {
+    top: 15px; 
+    } 
+}
+.banner-product3 img{
+    webkit-animation: right_img 5s ease-in-out 0s infinite normal none;
+    animation: right_img 5s ease-in-out 0s infinite normal none;
+    position: absolute;
+    right: 0
+}
+
+@-webkit-keyframes right_img {
+  0% {
+    right: 15px; 
+    }
+  50% {
+    right: 0; 
+    }
+  100% {
+    right: 15px; 
+    } 
+}
+
+.home-banner .home-slider p.disclaimer {
+    position: absolute;
+    bottom: 49px;
+    font-size: 11px;
+    left: 120px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.home-banner figure {
+    height: 100vh;
+}
+
+.home-banner .banner-content {
+    margin: 135px 50px 0 -60px;
+}
+
+.home-banner .banner-content h1 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 80px;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.home-banner .banner-content h1 span {
+    display: block;
+    color: #FCC517;
+}
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1
+}
+
+.animate__animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.home-banner .slick-current .banner-content h1 {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+.home-banner .banner-content p {
+    font-size: 18px;
+    color: #fff;
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+.home-banner .slick-current  p {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-delay: var(--animate-delay);
+    animation-delay: var(--animate-delay)
+}
+
+.home-banner .home-slider .slick-dots {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    width: 120px;
+}
+
+.home-banner .home-slider .slick-dots li {
+    float: left;
+    margin-right: 17px;
+
+}
+
+.home-banner .home-slider .slick-dots li button {
+    width: 22px;
+    height: 1px;
+    background: #fff;
+    border: none;
+    outline: none;
+    text-indent: -9999px;
+}
+
+.home-banner .home-slider .slick-dots .slick-active button {
+    background: #FCC517;
+    height: 3px;
+}
+
+/*home banner end*/
+
+
+
+
+/*Classic Masala Start*/
+.classic-masala {
+    background: #FFF1BE;
+    position: relative;
+}
+
+.classic-masala .masala-product {
+    padding: 0 50px 50px 50px;
+}
+.classic-masala .masala-product img{
+    webkit-animation: bottom_img 5s ease-in-out 0s infinite normal none;
+    animation: bottom_img 5s ease-in-out 0s infinite normal none;
+    position: relative;
+    top: 0;
+    width: 90%;
+}
+@-webkit-keyframes bottom_img {
+  0% {
+    top: 20px; 
+    }
+  50% {
+    top: 0; 
+    }
+  100% {
+    top: 20px; 
+    } 
+}
+.classic-masala .masala-content {
+    width: 100%;
+    padding: 0 70px 70px 70px;
+}
+
+.classic-masala .add-ons-div {
+    background: url(../img/add-ons.png) no-repeat center;
+    width: 100%;
+    height: 110px;
+    position: relative;
+    padding: 15px 0 0 30px;
+}
+
+.classic-masala .add-ons-div .add-ons-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 3px;
+    background: #DB0812;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 50px;
+    margin: -25px auto;
+}
+
+.classic-masala .add-ons-div p {
+    width: 65%;
+    margin: 0 auto;
+    line-height: 18px;
+    padding: 22px;
+    font-size: 14px;
+}
+
+.classic-masala .masala-slider .slick-prev,
+.classic-masala .masala-slider .slick-next {
+    position: absolute;
+    top: 37%;
+    cursor: pointer;
+    z-index: 99
+}
+
+.classic-masala .masala-slider .slick-prev {
+    left: 0;
+}
+
+.classic-masala .masala-slider .slick-next {
+    right: 0;
+}
+
+.classic-masala .masala-slider {
+    padding: 0 30px;
+}
+
+.classic-masala .masala-slider .slide-content {
+    background: #FFF7DA;
+    padding: 30px 10px 30px 110px;
+    margin: 10px 10px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+    text-align: left;
+}
+
+.classic-masala .masala-slider .slide-content.slick-current {
+    border: 1px solid #DB0812;
+    background: #FFFFFF
+}
+
+.classic-masala .masala-slider .slide-content.slick-current span {
+    color: #DB0812;
+}
+
+.classic-masala .masala-slider .slide-content img {
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    left: 15px;
+}
+
+.classic-masala p.disclaimer-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/*Classic Masala End*/
+
+
+/*Delicious Start*/
+.delicious {
+    position: relative;
+}
+
+.delicious .delicious-healthy {
+    background: #FCC517;
+    padding: 40px 30px 20px 5%;
+}
+
+.delicious .delicious-healthy .delicious-item {
+    padding: 10px 15px;
+}
+.delicious .delicious-healthy .delicious-item img{
+     transition:1s;
+}
+
+.delicious .delicious-healthy .delicious-item:hover img{
+    transform: translate(0, -10px);
+}
+
+.delicious .delicious-healthy .delicious-item img {
+    width: auto;
+    height: 55px;
+}
+
+.delicious .delicious-healthy .delicious-item p {
+    font-size: 18px;
+    margin:8px 0;
+}
+
+.delicious .delicious-healthy ul {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.delicious .delicious-healthy ul li {
+    font-size: 12px;
+    opacity: 0.4;
+    line-height: 1.5;
+}
+
+/*Delicious end*/
+
+/*Easy to cook Start*/
+.easy-to-cook {
+    background: #FFF1BE;
+    position: relative;
+}
+
+.easy-to-cook .cook-box {
+    padding: 20px 50px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.easy-to-cook .cook-box p {
+    margin-top: 20px;
+}
+
+.easy-to-cook .cook-box .arrow-first,
+.easy-to-cook .cook-box .arrow-second {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.cook-box1,
+.cook-box2,
+.cook-box3{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
+.cook-box2{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-delay: var(--animate-delay);
+    animation-delay: var(--animate-delay);
+}
+.cook-box3{
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-delay: calc(var(--animate-delay)*2);
+    animation-delay: calc(var(--animate-delay)*2)
+}
+
+/*Easy to cook end*/
+
+
+/*Steaming Yummy Recipes Start*/
+.steaming {
+    background: #FCC517;
+    position: relative;
+}
+
+.steaming .card-header {
+    background: transparent;
+    border-bottom: none;
+    margin-bottom: 20px;
+
+}
+
+.steaming .card-header .nav-tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.steaming .card-header .nav-tabs .nav-item {
+    margin: 0 10px;
+}
+
+.steaming .card-header .nav-tabs .nav-link {
+    border: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.steaming .card-header .nav-tabs .nav-link.active,
+.steaming .card-header .nav-tabs .nav-link:hover {
+    background: transparent;
+    color: #DB0812;
+    border-bottom: 1px #DB0812 solid;
+}
+
+.steaming .recipes-box {
+    position: relative;
+    margin: 0 15px;
+    overflow: hidden;
+}
+
+.steaming h2.subtitle {
+    margin-bottom: 20px
+}
+
+.steaming .recipes-box img {
+    border-radius: 10px;
+    width: 100%;
+    transition: transform 0.5s;
+}
+.steaming .recipes-box img:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.steaming .recipes-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.steaming .recipes-caption h3 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 38px;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 5px;
+    padding: 0 20px
+}
+
+.steaming .recipes-caption ul {
+    display: inline-block;
+}
+
+.steaming .recipes-caption ul li {
+    float: left;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.steaming .recipes-caption ul li img {
+    margin-right: 5px;
+    vertical-align: sub;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.steaming .recipes-caption .recipes-btn {
+    background: #DB0812;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    border-radius: 0 0 10px 0;
+    padding: 12px;
+    z-index: 99;
+}
+
+.steaming .recipes-caption .recipes-btn {
+    background: #DB0812 url(../img/Path-2.svg) center no-repeat;
+    background-size: 12px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    border-radius: 0 0 10px 0;
+    padding: 12px;
+    z-index: 99;
+    opacity: 1;
+}
+
+.steaming .recipes-caption .recipes-btn.close {
+    background: #DB0812 url(../img/close.svg) center no-repeat;
+    background-size: 12px;
+    opacity: 1;
+}
+
+.steaming .recipes-slider {
+    padding: 15px 20px 0 20px;
+}
+
+.steaming .recipes-slider .slick-prev,
+.steaming .recipes-slider .slick-next {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.steaming .recipes-slider .slick-prev {
+    left: 0;
+}
+
+.steaming .recipes-slider .slick-next {
+    right: 0;
+}
+
+.steaming .recipes-box .overlay-text {
+    position: absolute;
+    background: #ececec;
+    height: 100%;
+    top: 100%;
+    right: 0;
+    bottom: -15px;
+    left: 0;
+    z-index: 9;
+    padding: 10%;
+    overflow: auto;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.steaming .more-recipes img {
+    margin-left: 5px;
+}
+
+.steaming .recipes-box .overlay-text.open {
+    top: 0;
+}
+
+.steaming .recipes-box .overlay-text::-webkit-scrollbar {
+    width: 8px
+}
+
+.steaming .recipes-box .overlay-text::-webkit-scrollbar-track {
+    background-color: transparent
+}
+
+.steaming .recipes-box .overlay-text::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 6px;
+    border-radius: 5px
+}
+
+.steaming .recipes-box .overlay-text::-webkit-scrollbar-thumb:hover {
+    background: #222
+}
+
+.steaming .recipes-box .overlay-text p {
+    color: #DB0812;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.steaming .recipes-box .overlay-text ul {
+    margin-bottom: 20px;
+}
+
+.steaming .recipes-box .overlay-text ul li {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+/*Steaming Yummy Recipes End*/
+
+
+
+/*From one foodie to another Start*/
+.from-one-foodie {
+    background: #FFF1BE;
+}
+
+.from-one-foodie .foodie-slider .slide-content {
+    padding: 20px 70px 0 70px;
+}
+
+.from-one-foodie .foodie-slider .slide-content img {
+    margin: 20px auto;
+}
+
+.from-one-foodie .foodie-slider .slide-content hr {
+    background: #FCC517;
+    width: 65px;
+    height: 3px;
+    margin: 20px auto;
+    border: none;
+}
+
+.from-one-foodie .foodie-slider .slide-content p {
+    margin-bottom: 45px;
+}
+
+.from-one-foodie .foodie-slider .slide-content a {
+    font-size: 18px;
+    color: #DB0812;
+}
+
+.from-one-foodie .foodie-slider .slide-content h5 {
+    font-size: 12px;
+    color: #202020;
+    opacity: 0.4;
+    margin: 3px 0 0 0;
+}
+
+.from-one-foodie .foodie-slider .slick-prev,
+.from-one-foodie .foodie-slider .slick-next {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 9999
+}
+
+.from-one-foodie .foodie-slider .slick-prev {
+    left: 0;
+}
+
+.from-one-foodie .foodie-slider .slick-next {
+    right: 0;
+}
+
+/*From one foodie to another End*/
+
+/*Follow us Start*/
+.follow-us {
+    background: #DB0812;
+    position: relative;
+}
+
+.follow-us:after,
+.steaming:before,
+.delicious:after,
+.classic-masala:after {
+    content: '';
+    width: 100%;
+    height: 30px;
+    background: url(../img/top.svg) repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.steaming:before {
+    bottom: 0;
+}
+
+.classic-masala:after {
+    top: -29px;
+    transform: rotate(-180deg);
+}
+
+
+.follow-us .subtitle {
+    color: #fff;
+}
+
+.follow-us .subtitle span {
+    color: #FCC517;
+}
+
+.follow-us .social-media {
+    float: right;
+    padding: 25px 0;
+}
+
+.follow-us .social-media li {
+    float: left;
+    padding: 0 15px;
+}
+
+.follow-us .follow-slider .slide-content {
+    margin:0 15px 15px 15px;
+}
+
+.follow-us .follow-slider img.img-fluid {
+    width: 100%;
+    transition: 0.5s;
+}
+.follow-us .follow-slider img.img-fluid:hover{
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 50%);
+    -webkit-box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.50);
+}
+
+.follow-us .follow-slider .slick-prev,
+.follow-us .follow-slider .slick-next {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    z-index: 9999;
+    background: #000;
+    width: 25px;
+    height: 35px;
+
+}
+
+.follow-us .follow-slider .slick-prev {
+    left: 15px;
+    border-radius: 0 25px 25px 0;
+}
+
+.follow-us .follow-slider .slick-next {
+    right: 13px;
+    border-radius: 25px 0 0 25px;
+}
+
+.follow-us .follow-slider .slick-prev img,
+.follow-us .follow-slider .slick-next img {
+    width: 15px;
+    height: 15px;
+}
+
+.follow-us .follow-slider .slick-prev img {
+    margin: 10px 0px;
+}
+
+.follow-us .follow-slider .slick-next img {
+    margin: 10px 7px;
+}
+
+.follow-us .footer {
+    /*margin: 60px 0;*/
+    padding: 45px 0;
+}
+
+.follow-us .footer a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.follow-us .footer .mail {
+    margin-right: 20px;
+}
+
+.follow-us .footer img {
+    vertical-align: sub;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.follow-us .footer ul {
+    float: right;
+}
+
+.follow-us .footer ul li {
+    float: left;
+    padding: 0 10px;
+    font-size: 12px;
+    border-right: 1px #fff solid;
+    line-height: 1;
+    color: #fff;
+}
+
+.follow-us .footer ul li:last-child {
+    border-right: none;
+}
+.follow-us a.scroll-top{
+    position: absolute;
+    right: 55px;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    z-index: 99;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Follow us End*/
+
+
+
+.footer-buy {
+    display: none;
+}
+
+@media only screen and (min-device-width: 1600px) and (max-device-width: 2560px) {
+    body{
+        font-size: 17px;
+        line-height: 28px
+    }
+    .container{
+        max-width: 1520px;
+    }
+    .section-padding {
+        padding: 100px 0;
+    }
+    h2.subtitle{
+        font-size: 100px
+    }
+
+    header .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 20px
+    }
+    header .navbar-brand img{
+        width: 140px;
+        height: auto;
+    }
+
+    .home-banner .banner-content {
+        margin: 250px 100px 0 -60px;
+    }
+    .home-banner .banner-content h1 {
+        font-size: 120px;
+    }
+    .home-banner .banner-content p {
+        font-size: 24px;
+    }
+    .home-banner .home-slider p.disclaimer{
+        font-size: 15px
+    }
+    .home-banner figure {
+        height: 92vh;
+    }
+    .home-banner .home-slider picture .banner-product1 {
+        left: -230px;
+        top: -55px;
+        width: 90%;
+    }
+    .home-banner .home-slider picture .banner-product2 {
+        left: 156px;
+        top: 260px;
+        width: 55%;
+    }
+    .home-banner .home-slider picture .banner-product3 {
+        width: 55%;
+        top: 155px;
+    }
+    .masala-product img{
+        width: 100%;
+    }
+    .classic-masala .add-ons-div p {
+        width: 50%;
+    }
+    .classic-masala p.disclaimer-text {
+        font-size: 14px;
+    }
+    .classic-masala .masala-slider .slide-content img {
+        width: 95px;
+    }
+    .classic-masala .masala-slider .slide-content {
+        padding: 30px 10px 30px 130px;
+    }
+    .masala-slider .slide-content span {
+        font-size: 18px;
+    }
+    .delicious .delicious-healthy .delicious-item p {
+        font-size: 20px;
+    }
+        
+    .delicious .delicious-healthy .delicious-item {
+        margin-bottom: 15px;
+    }
+    .delicious .delicious-healthy ul li {
+        font-size: 14px;
+    }
+    .delicious .delicious-healthy .delicious-item img {
+        width: 80px;
+        height: 80px;
+    }
+    .steaming .card-header .nav-tabs .nav-link {
+        font-size: 20px;
+    }
+    .steaming .recipes-caption h3 {
+        font-size: 45px;
+    }
+    .steaming .recipes-caption ul li {
+        font-size: 16px;
+    }
+    .steaming .recipes-caption ul li img {
+        width: 25px;
+        height: 25px;
+    }
+    .from-one-foodie .foodie-slider .slide-content a {
+        font-size: 20px;
+    }
+    .from-one-foodie .foodie-slider .slide-content h5 {
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:1440px) {
+    .container{
+        max-width: 1270px;
+    }
+    h2.subtitle{
+        font-size: 60px
+    }
+
+    .home-banner figure {
+        height: 97vh;
+    }
+    .home-banner .banner-content h1{
+        font-size: 90px
+    }
+    .home-banner .banner-content p{
+        font-size: 20px
+    }
+    .home-banner .home-slider p.disclaimer{
+        font-size: 12px;
+        bottom: 30px;
+    }
+    .classic-masala .add-ons-div .add-ons-btn {
+        font-size: 16px;
+    }
+    .classic-masala .masala-content {
+        padding: 0 45px 100px 45px;
+    }
+    .classic-masala .masala-product {
+        padding: 0 10px 70px 40px;
+    }
+    .classic-masala .masala-slider .slide-content img {
+        width: 85px;
+    }
+    .follow-us:after{
+        top: -1px;
+    }
+    .masala-slider .slide-content span{
+        font-size: 16px;
+    }
+    .masala-slider .slide-content span {
+        font-size: 16px;
+    }
+    .steaming .card-header .nav-tabs .nav-link {
+        font-size: 16px;
+    }
+    .steaming .recipes-caption h3 {
+        font-size: 40px;
+    }
+    .steaming .recipes-caption ul li {
+        font-size: 16px;
+    }
+    .from-one-foodie .foodie-slider .slide-content a {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:1280px) {
+    .home-banner .banner-content h1 {
+        font-size: 74px;
+    }
+
+    h2.subtitle {
+        font-size: 50px;
+    }
+
+    .delicious .delicious-healthy ul {
+        margin-top: 16px;
+    }
+
+    .home-banner figure {
+        height: 87vh;
+    }
+}
+
+
+@media only screen and (max-width:1024px) {
+    .home-banner figure {
+        height: 38vh;
+    }
+
+    .home-banner .home-slider picture .banner-product2 {
+        left: 130px;
+        top: 140px;
+    }
+
+    .home-banner .banner-content {
+        margin: 120px 0 0 -30px;
+    }
+
+    .home-banner .home-slider p.disclaimer {
+        left: 80px;
+    }
+
+    .delicious img {
+        height: 100%;
+    }
+
+    .follow-us .footer ul li {
+        padding: 0 8px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:992px) {
+    .home-banner figure {
+        height: 67vh;
+    }
+
+
+}
+
+
+@media only screen and (max-width:991px) {
+    .container {
+        max-width: 750px;
+    }
+
+    h2.subtitle {
+        font-size: 40px;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .home-banner figure {
+        height: 39vh;
+    }
+
+    .home-banner .banner-content h1 {
+        font-size: 50px;
+    }
+
+    .home-banner .home-slider picture .banner-product1 {
+        left: -45px;
+        top: 15px;
+    }
+
+    .home-banner .home-slider picture .banner-product2 {
+        left: 117px;
+        top: 115px;
+    }
+
+    .home-banner .home-slider picture .banner-product3 {
+        right: 30px;
+        top: 88px;
+    }
+
+    .home-banner .banner-content {
+        margin: 95px 0 0 -30px;
+    }
+
+    .classic-masala .masala-content {
+        width: 100%;
+        padding: 0 0 35px 0;
+    }
+
+    .classic-masala .masala-product {
+        padding: 0 15px 40px 15px;
+    }
+
+    .classic-masala .add-ons-div {
+        padding: 25px 0 0 0;
+        background-size: contain;
+    }
+
+    .classic-masala .add-ons-div p {
+        width: 75%;
+        padding: 10px 0px 0px 25px;
+    }
+
+    .delicious .delicious-healthy .delicious-item {
+        padding: 10px 0;
+    }
+
+    .delicious .delicious-healthy .delicious-item p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .delicious .delicious-healthy .delicious-item img {
+        height: 50px;
+    }
+
+    .delicious .delicious-healthy ul {
+        padding-left: 0;
+    }
+
+
+    .easy-to-cook .cook-box {
+        padding: 20px 20px;
+    }
+
+    .easy-to-cook .cook-box .arrow-first,
+    .easy-to-cook .cook-box .arrow-second {
+        right: -55px;
+        top: 40%;
+    }
+
+
+
+    .from-one-foodie .foodie-slider .slide-content {
+        padding: 10px 20px;
+    }
+
+    .from-one-foodie .foodie-slider .slide-content p {
+        margin-bottom: 30px;
+    }
+
+    .from-one-foodie .foodie-slider .slide-content hr {
+        margin: 15px auto;
+    }
+
+    .follow-us .footer ul li {
+        padding: 0 2px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    body {
+        line-height: 22px;
+    }
+
+    .hiddenDesktop {
+        display: block !important;
+    }
+
+    .hiddenMobile {
+        display: none !important;
+    }
+
+    .section-padding {
+        padding: 40px 0;
+    }
+
+    .order-2-mobile {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .order-1-mobile {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .order-3-mobile {
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    h2.subtitle {
+        font-size: 40px;
+        margin-bottom: 10px;
+        max-width: 90%;
+        margin: 0 auto 15px auto;
+    }
+
+    .classic-masala:after {
+        top: -29px;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    header .navbar-collapse {
+        background: #fff;
+        margin-top: -7px;
+    }
+
+    header .navbar-expand-md .navbar-nav .nav-link {
+        color: #db0811;
+        padding: 8px 20px;
+    }
+
+    header .navbar-brand {
+        padding: 15px;
+    }
+
+    header .navbar-toggler {
+        margin-right: 20px
+    }
+
+
+    .hamburger {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .hamburger span {
+        position: relative;
+        transform: translateY(-2px);
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        transition: all 0 .3s;
+        display: block;
+        margin: 0 10px 0 20px
+    }
+
+    .hamburger span,
+    .hamburger span:after,
+    .hamburger span:before {
+        background: #DB0812;
+        width: 25px;
+        height: 4px;
+        border-radius: 2px;
+    }
+
+    .hamburger span:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 8px;
+        transition: bottom .3s .3s cubic-bezier(.23, 1, .32, 1), transform .3s cubic-bezier(.23, 1, .32, 1);
+        -webkit-transition: bottom .3s .3s cubic-bezier(.23, 1, .32, 1), transform .3s cubic-bezier(.23, 1, .32, 1);
+        -moz-transition: bottom .3s .3s cubic-bezier(.23, 1, .32, 1), transform .3s cubic-bezier(.23, 1, .32, 1)
+    }
+
+    .hamburger span:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 8px;
+        transition: top .3s .3s cubic-bezier(.23, 1, .32, 1), transform .3s cubic-bezier(.23, 1, .32, 1);
+        -webkit-transition: top .3s .3s cubic-bezier(.23, 1, .32, 1), transform .3s cubic-bezier(.23, 1, .32, 1);
+        -moz-transition: top .3s .3s cubic-bezier(.23, 1, .32, 1), transform .3s cubic-bezier(.23, 1, .32, 1)
+    }
+
+    .hamburger.active span {
+        background: rgba(255, 255, 255, 0)
+    }
+
+    .hamburger.active span:after {
+        background: #DB0812;
+        top: 0;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transition: top .3s cubic-bezier(.23, 1, .32, 1), transform .3s .3s cubic-bezier(.23, 1, .32, 1);
+        -webkit-transition: top .3s cubic-bezier(.23, 1, .32, 1), transform .3s .3s cubic-bezier(.23, 1, .32, 1);
+        -moz-transition: top .3s cubic-bezier(.23, 1, .32, 1), transform .3s .3s cubic-bezier(.23, 1, .32, 1)
+    }
+
+    .hamburger.active span:before {
+        background: #DB0812;
+        bottom: 0;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transition: bottom .3s cubic-bezier(.23, 1, .32, 1), transform .3s .3s cubic-bezier(.23, 1, .32, 1);
+        -webkit-transition: bottom .3s cubic-bezier(.23, 1, .32, 1), transform .3s .3s cubic-bezier(.23, 1, .32, 1);
+        -moz-transition: bottom .3s cubic-bezier(.23, 1, .32, 1), transform .3s .3s cubic-bezier(.23, 1, .32, 1)
+    }
+
+    header.sticky {
+        padding: 0
+    }
+
+    header.sticky .navbar-brand img {
+        padding: 0;
+        width: 65px;
+    }
+
+    header.sticky .hamburger span,
+    header.sticky .hamburger span:after,
+    header.sticky .hamburger span:before,
+    header.sticky .hamburger.active span:before,
+    header.sticky .hamburger.active span:after {
+        background: #fff
+    }
+
+    header.sticky .hamburger.active span {
+        background: transparent;
+    }
+
+    header.sticky .navbar-expand-md .navbar-nav .nav-link {
+        color: #db0811;
+        padding: 8px 20px;
+    }
+
+
+
+    .home-banner .home-slider picture .banner-product1 {
+        left: -95px;
+        top: 0;
+        width: 100%;
+    }
+
+    .home-banner .home-slider picture .banner-product2 {
+        left: 85px;
+        top: 120px;
+        width: 60%;
+    }
+
+    .home-banner .home-slider picture .banner-product3 {
+        right: -20px;
+        width: 60%;
+        top: 85px;
+    }
+
+    .home-banner figure {
+        height: auto;
+    }
+
+    .home-banner .banner-content {
+        max-width: 85%;
+        margin: 90% auto 0 auto;
+        padding-bottom: 100px;
+        /*height: 55vh;*/
+        /*background: #a99494;*/
+    }
+
+    .home-banner .banner-content h1 {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .home-banner .banner-content p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .classic-masala .masala-product img{
+        width: 100%;
+    }
+    .home-banner .home-slider .slick-dots {
+        right: 0;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .home-banner .home-slider .slick-dots li {
+        float: unset;
+        display: inline-block;
+    }
+
+    .home-banner .home-slider p.disclaimer {
+        position: absolute;
+        bottom: -550px;
+        left: 0;
+        z-index: 99;
+        right: 0;
+        text-align: center;
+        max-width: 80%;
+        margin: auto;
+        line-height: 15px;
+        font-size: 10px;
+        opacity: 0.5;
+    }
+
+    .classic-masala .masala-content {
+        padding: 0 0 25px 0;
+    }
+
+    .classic-masala .masala-product {
+        padding: 0px;
+    }
+
+    .classic-masala .masala-product img {
+        padding: 15px 25px;
+    }
+
+    .classic-masala .add-ons-div p {
+        width: 100%;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .classic-masala .add-ons-div {
+        background-size: contain;
+        margin-top: -35px;
+    }
+
+    .classic-masala .masala-slider {
+        padding: 0;
+        margin: 0 -10px;
+    }
+
+    .classic-masala .masala-slider .slide-content {
+        margin: 10px 10px;
+    }
+
+    .classic-masala .masala-slider .slide-content img {
+        width: 50px;
+        left: 10px;
+    }
+
+    .classic-masala .masala-slider .slide-content {
+        padding: 30px 10px 30px 80px;
+    }
+
+    .classic-masala p.disclaimer-text {
+        font-size: 10px;
+    }
+
+    .masala-slider .slick-list{
+        padding-right: 100px; 
+    }
+
+    .follow-us:after,
+    .steaming:before,
+    .delicious:after {
+        top: -1px;
+    }
+
+
+    .delicious .delicious-healthy .delicious-item {
+        padding: 20px 0px;
+    }
+
+    .delicious .delicious-healthy ul {
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    .delicious .delicious-healthy ul li {
+        line-height: 1.6;
+        font-size: 10px;
+    }
+
+    .delicious .delicious-healthy .delicious-item p {
+        font-size: 16px;
+    }
+
+    .mobile-scroll {
+        margin: 20px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        /*display: -webkit-flex;*/
+        /*display: flex;*/
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .mobile-scroll .col-sm-4 {
+        width: 210px;
+    }
+
+    .easy-to-cook .cook-box {
+        padding: 20px 0;
+    }
+
+    .easy-to-cook .cook-box .arrow-first,
+    .easy-to-cook .cook-box .arrow-second {
+        position: absolute;
+        right: -45px;
+        top: 20px;
+        width: 70px;
+    }
+
+    .easy-to-cook .cook-box p {
+        margin: 20px 0;
+    }
+
+    .steaming .card-header {
+        padding: 0;
+        margin: 0;
+    }
+
+    .steaming .card-header .nav-tabs {
+        margin: 5px 5px 0 5px;
+        padding-bottom: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        /*display: -webkit-flex;*/
+        /*display: flex;*/
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .steaming .card-header .nav-tabs .nav-item {
+        margin: 0 35px 0 0px;
+    }
+
+    .steaming .recipes-slider {
+        padding: 10px 0 0 0;
+        margin: 0
+    }
+
+    .steaming .recipes-box {
+        position: relative;
+        margin: 0 5px 20px 5px;
+    }
+
+    .steaming .recipes-box .overlay-text {
+        top: -105%;
+    }
+
+    .steaming .recipes-caption ul {
+        padding-bottom: 110px;
+    }
+
+    /* width */
+    .recipes-slider.mobile-scroll::-webkit-scrollbar {
+        /*width: 10px;*/
+        height: 3px;
+        border-radius: 5px;
+    }
+
+    /* Track */
+    .recipes-slider.mobile-scroll::-webkit-scrollbar-track {
+        background: #fff;
+        border-radius: 5px;
+    }
+
+    /* Handle */
+    .recipes-slider.mobile-scroll::-webkit-scrollbar-thumb {
+        background: #DB0812;
+        border-radius: 5px;
+    }
+
+    /* Handle on hover */
+    .recipes-slider.mobile-scroll::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+
+
+
+    .from-one-foodie .foodie-slider .slide-content {
+        padding: 10px 45px 0 45px;
+    }
+
+    .from-one-foodie .foodie-slider .slick-next {
+        right: 10px;
+    }
+
+    .from-one-foodie .foodie-slider .slick-prev {
+        left: 10px;
+    }
+
+    .from-one-foodie .foodie-slider .slide-content a {
+        font-size: 16px;
+    }
+
+    .from-one-foodie .foodie-slider .slide-content h5 {
+        font-size: 10px
+    }
+
+    .follow-us .follow-slider .slide-content {
+        margin: 0 5px;
+    }
+
+    .follow-us .follow-slider .slick-next {
+        right: 5px;
+    }
+
+    .follow-us .follow-slider .slick-prev {
+        left: 5px;
+    }
+
+    .follow-us .subtitle {
+        text-align: center !important;
+    }
+
+    .follow-us .social-media {
+        float: unset;
+        padding: 0 0 25px 0;
+        text-align: center;
+        margin: auto;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .follow-us .social-media li {
+        float: unset;
+        display: inline-block;
+    }
+
+    .follow-us .footer {
+        text-align: center;
+        padding: 35px 0 65px 0;
+    }
+
+    .follow-us .footer a {
+        display: block;
+        font-size: 14px;
+    }
+
+    .follow-us .footer .mail {
+        margin-right: 0px;
+    }
+
+    .follow-us .footer ul {
+        float: unset;
+        padding: 40px 0 25px 0;
+        text-align: center;
+        margin: auto;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .follow-us .footer ul li {
+        float: unset;
+        display: inline-block;
+        font-size: 10px
+    }
+
+    .follow-us .footer ul li.border-none {
+        border: none;
+    }
+
+    .follow-us .footer ul li a {
+        font-size: 10px;
+    }
+
+    .follow-us .follow-slider.slick-slider {
+        margin: 0 -10px
+    }
+
+    .footer-buy {
+        display: block;
+    }
+
+    .footer-buy a {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: #DB0812;
+        background: #fff;
+        padding: 15px;
+        z-index: 99;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .footer-buy a span {
+        position: relative;
+        padding-left: 10px;
+    }
+
+    .footer-buy a span:after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-top: 1px solid #DB0812;
+        border-left: 1px solid #DB0812;
+        position: absolute;
+        transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        top: 6px;
+    }
+    .follow-us a.scroll-top {
+        right: 15px;
+    }
+
+}
+
+
+@media only screen and (max-width:414px) {
+    .home-banner .home-slider p.disclaimer {
+        bottom: -605px;
+    }
+
+}
+
+@media only screen and (max-width:411px) {
+    .home-banner .home-slider p.disclaimer {
+        bottom: -600px;
+    }
+
+    .home-banner .home-slider picture {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .home-banner .home-slider p.disclaimer {
+        bottom: -570px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .home-banner .home-slider picture .banner-product1 {
+        top: 15px;
+    }
+
+    .home-banner .home-slider p.disclaimer {
+        bottom: -550px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .home-banner .home-slider picture .banner-product1 {
+        left: -35px;
+        top: 44px;
+        width: 80%;
+    }
+
+    .home-banner .home-slider picture .banner-product2 {
+        left: 70px;
+        top: 120px;
+        width: 50%;
+    }
+
+    .home-banner .home-slider picture .banner-product3 {
+        right: 0;
+        width: 50%;
+        top: 95px;
+    }
+
+    .home-banner .home-slider p.disclaimer {
+        bottom: -510px;
+    }
+
+    .home-banner .banner-content {
+        margin: 85% auto 0 auto;
+    }
+
+}
